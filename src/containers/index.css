@@ -1,0 +1,28 @@
+.cardDeck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20vh;
+}
+.card-img-top {
+  height: 40vh;
+  width: 20vw;
+}
+#root {
+  background: url('../Assets/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardDeck > div > input {
+  margin-top: 5vh;
+  margin-bottom: 30vh;
+  padding: 5vh;
+  font-size: 2rem;
+}
+.cardDeck > div > div > button {
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+  padding: 3vh;
+  font-size: 1.4rem;
+}
